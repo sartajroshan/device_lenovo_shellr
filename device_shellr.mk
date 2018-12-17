@@ -7,6 +7,7 @@ $(call inherit-product-if-exists, vendor/Lenovo/shellr/shellr-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/Lenovo/shellr/overlay
 
+LOCAL_PATH := device/Lenovo/shellr/prebuilt
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := device/Lenovo/shellr/kernel
